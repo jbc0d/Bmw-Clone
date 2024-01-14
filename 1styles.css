@@ -1,0 +1,66 @@
+
+.banner img{
+    max-width: 100%;
+}
+.plate{
+    padding: 2rem;
+}
+.slide-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+.slider{
+    display:flex;
+    aspect-ratio:16/9 ;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.5rem hsla(0, 0%, 0%, o.25);
+border-radius: 3.5rem;
+}
+.slider img{
+    flex:1 0 100%;
+    scroll-snap-align: start;
+}
+header{
+    background-color: rgb(47, 47, 196);
+    padding:20ox;
+    text-align:center;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    top:o;
+    left:0;
+
+}
+header h1{
+    color: black;
+    border:8px solid white;
+     padding:6px 12px;
+     display: inline-block;
+     border-radius: 10px
+}
+
+nav{
+    background-color: black;
+    padding:20px;
+    position:sticky;
+    top:117px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+nav li{
+    width:25% ;
+    display:inline-block;
+    font-size: 24px;
+}
+   .M1{
+    background-color: blue;
+   }
+   text{
+    text-decoration-color: lightslategray;
+   }
